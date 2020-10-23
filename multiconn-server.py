@@ -6,6 +6,7 @@ ServerSocket = socket.socket()
 host = '127.0.0.1'
 port = 1233
 ThreadCount = 0
+killreceived = False
 try:
     ServerSocket.bind((host, port))
 except socket.error as e:
@@ -16,11 +17,20 @@ ServerSocket.listen(5)
 
 
 def threaded_client(connection):
+    global killreceived
     connection.send(str.encode('Welcome to the Server\n'))
     while True:
         data = connection.recv(2048)
         reply = 'Server Says: ' + data.decode('utf-8')
+        print(data)
+        print("KILLSERVER")
         if not data:
+            break
+        if data[:10] == b"KILLSERVER":
+            killreceived = True
+        if killreceived:
+            reply = 'Server killed, goodbye.'
+            connection.sendall(str.encode(reply))
             break
         connection.sendall(str.encode(reply))
     connection.close()
