@@ -22,8 +22,6 @@ def threaded_client(connection):
     while True:
         data = connection.recv(2048)
         reply = 'Server Says: ' + data.decode('utf-8')
-        print(data)
-        print("KILLSERVER")
         if not data:
             break
         if data[:10] == b"KILLSERVER":
@@ -41,4 +39,7 @@ while True:
     start_new_thread(threaded_client, (Client, ))
     ThreadCount += 1
     print('Thread Number: ' + str(ThreadCount))
+    if killreceived:
+        print('Server killed.')
+        break
 ServerSocket.close()
