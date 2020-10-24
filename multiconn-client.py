@@ -9,6 +9,7 @@ if len(readhost) > 8:
     host = readhost
 print('Waiting for connection')
 try:
+    print('Connecting to '+str(host))
     ClientSocket.connect((host, port))
 except socket.error as e:
     print(str(e))
