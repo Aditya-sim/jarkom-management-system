@@ -11,7 +11,7 @@ killreceived = False
 print('Getting host IP...')
 try:
     import urllib.request
-    readhost = urllib.request.urlopen("http://169.254.169.254/latest/meta-data/public-ipv4").read()
+    readhost = urllib.request.urlopen("http://169.254.169.254/latest/meta-data/public-ipv4").read().decode('utf-8')
 except Exception as e:
     print(str(e))
 else:

@@ -4,6 +4,9 @@ ClientSocket = socket.socket()
 host = '127.0.0.1'
 port = 1233
 
+readhost = input('Enter host IP (leave empty for localhost): ')
+if len(readhost) > 8:
+    host = readhost
 print('Waiting for connection')
 try:
     ClientSocket.connect((host, port))
