@@ -19,5 +19,9 @@ while True:
         print(Response.decode('utf-8'))
     except ConnectionAbortedError as e:
         print('Connection aborted.')
+        break
+    except ConnectionResetError as e:
+        print('Connection reset.')
+        break
 
 ClientSocket.close()
