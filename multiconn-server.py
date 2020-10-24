@@ -60,8 +60,11 @@ def threaded_server(sock):
             break
     sock.close()
 
+def threaded_killswitch(sock):
+    while True:
+        if killreceived:
+            sock.close()
+            break
+
 start_new_thread(threaded_server,(ServerSocket,))
-while True:
-    if killreceived:
-        ServerSocket.close()
-        break
+start_new_thread(threaded_killswitch,(ServerSocket,))
