@@ -26,12 +26,14 @@ while True:
         if Input == ('bye'):
             print('You have broken connection.')
             break
-        elif Input == ('Text Previewer'):
+        elif Input.lower() == ('text previewer'):
             Input = input("Please specify the text's URL that you would like to preview:")
             ClientSocket.sendall(str.encode(Input))
             preview = ClientSocket.recv(2048)
             preview = preview.decode('utf-8')
             print(preview)
+        elif Input.lower() == ('killserver'):
+            break
         Response = ClientSocket.recv(1024)
         print(Response.decode('utf-8'))
     except ConnectionAbortedError as e:

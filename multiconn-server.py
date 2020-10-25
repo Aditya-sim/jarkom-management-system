@@ -45,9 +45,9 @@ def threaded_client(connection, id):
             print('Thread ' + str(thread_id) + ' says: ' + decodedata)
             if not data:
                 break
-            elif decodedata == "Factorio Calculator":
+            elif decodedata.lower() == 'factorio calculator':
                 factorio2.runprogram(connection)
-            elif decodedata == 'Text Previewer':
+            elif decodedata.lower() == 'text previewer':
                 data = connection.recv(4096)
                 url = data.decode('utf-8')
                 try:
@@ -55,6 +55,8 @@ def threaded_client(connection, id):
                     connection.send(text.encode('ascii'))
                 except Exception:
                     connection.sendall(str.encode("We're sorry, the URL you specified is invalid."))
+            elif decodedata.lower() == 'bye':
+                pass
             elif data[:10] == b"KILLSERVER":
                 killreceived = True
             if killreceived:
@@ -63,8 +65,8 @@ def threaded_client(connection, id):
                 break
             connection.sendall(str.encode(reply))
         connection.close()
-    except Exception as e:
-        print("Client " + str(thread_id) + " has severed connection: "+str(e))
+    except Exception:
+        print('Client ' + str(thread_id) + ' has severed connection.')
 
 def threaded_server(sock):
     ThreadCount = 0
