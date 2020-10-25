@@ -1,7 +1,7 @@
 # jarkom-management-system
 ## Tugas 3 Socket Programming
 
-## Anggota Kelompok :
+## Kelompok (A4) :
 
 - Faishal Ridwan - 1706040201
 - Insanul Fahmi - 1706979291
@@ -66,7 +66,7 @@ python3 multiconn-server.py
 ```bash
 python3 multiconn-client.py
 ```
-4. Isi field Say Something dengan “Factorio Calucaltor”.
+4. Isi field Say Something dengan “Factorio Calculator”.
 5. Selama dalam periode fitur Factorio Calculator bisa ikuti prosedur berdikut :
  - Masukkan item yang ingin didapatkan, lalu masukkan 'proceed' untuk masuk ke stage selanjutnya
  - Pilih item yang akan dipecah, atau masukkan 0 untuk selesai
