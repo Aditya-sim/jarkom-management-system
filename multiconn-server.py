@@ -15,13 +15,13 @@ ThreadCount = 0
 killreceived = False
 
 print('Getting host IP...')
-# try:
-#     import urllib.request
-#     readhost = urllib.request.urlopen("http://169.254.169.254/latest/meta-data/local-ipv4").read().decode('utf-8')
-# except Exception as e:
-#     print(str(e))
-# else:
-#     host = readhost
+try:
+    import urllib.request
+    readhost = urllib.request.urlopen("http://169.254.169.254/latest/meta-data/local-ipv4").read().decode('utf-8')
+except Exception as e:
+    print(str(e))
+else:
+    host = readhost
 print('Host IP is '+str(host))
 
 try:
