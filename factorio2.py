@@ -128,7 +128,7 @@ def runprogram(connection):
             init = False
             
         while stage == 0:
-            iteminput = ninput(separator + '\nAdd initial item(s), enter 'proceed' to proceed:\n')
+            iteminput = ninput(separator + '\nAdd initial item(s), enter "proceed" to proceed:\n')
             if iteminput in items:
                 amtinput = ninput('Item amount: ')
                 try:
