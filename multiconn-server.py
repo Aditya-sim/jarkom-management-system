@@ -1,8 +1,12 @@
-import socket
 import os
+import socket
 from _thread import *
 
 import jobs, factorio2
+from io import BytesIO
+from PIL import Image
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 ServerSocket = socket.socket()
 host = '127.0.0.1'
@@ -41,14 +45,17 @@ def threaded_client(connection, id):
             print('Thread ' + str(thread_id) + ' says: ' + decodedata)
             if not data:
                 break
-            if decodedata == "Read Alice":
-                Alice = jobs.read_alice()
-                connection.sendall(Alice.encode('ascii'))
-            elif decodedata == "Factorio Calculator":
-                factorio2.runprogram(connection)
-            if data[:10] == b"KILLSERVER":
+            elif decodedata == 'Text Previewer':
+                data = connection.recv(4096)
+                url = data.decode('utf-8')
+                try:
+                    text = jobs.text_previewer(url)
+                    connection.send(text.encode('ascii'))
+                except Exception:
+                    connection.sendall(str.encode("We're sorry, the URL you specified is invalid."))
+            elif data[:10] == b"KILLSERVER":
                 killreceived = True
-            if killreceived:
+            elif killreceived:
                 reply = 'Server killed, goodbye.'
                 connection.sendall(str.encode(reply))
                 break
