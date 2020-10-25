@@ -48,7 +48,7 @@ python3 multiconn-server.py
 ```bash
 python3 multiconn-client.py
 ```
-4. Isi field Say Something dengan “Text Previewer” dan masukan url yang akan di preview. Pada kali ini contoh url.txt yaitu [alice.txt](“http://gaia.cs.umass.edu/wiresharklabs/alice.txt”)
+4. Isi field Say Something dengan “Text Previewer” dan masukan url yang akan di preview. Pada kali ini contoh url.txt yaitu [alice.txt](http://gaia.cs.umass.edu/wiresharklabs/alice.txt)
 5. Jika program sudah selesai dijalankan dan ingin mengakhiri periode fitur maka bisa ketik perintah “bye” pada periode multiconn-client.py
 ```bash
 Say Something: bye
