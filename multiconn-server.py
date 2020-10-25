@@ -2,6 +2,8 @@ import socket
 import os
 from _thread import *
 
+import jobs
+
 ServerSocket = socket.socket()
 host = '127.0.0.1'
 port = 1233
@@ -28,24 +30,30 @@ ServerSocket.listen(5)
 
 
 def threaded_client(connection, id):
-    global killreceived
-    thread_id = id
-    connection.send(str.encode('Welcome to the Server\n'))
-    while True:
-        data = connection.recv(2048)
-        decodedata = data.decode('utf-8')
-        reply = 'Server Says: ' + decodedata
-        if not data:
-            break
-        if data[:10] == b"KILLSERVER":
-            killreceived = True
-        if killreceived:
-            reply = 'Server killed, goodbye.'
+    try:
+        global killreceived
+        thread_id = id
+        connection.send(str.encode('Welcome to the Server\n'))
+        while True:
+            data = connection.recv(2048)
+            decodedata = data.decode('utf-8')
+            reply = 'Server Says: ' + decodedata
+            if not data:
+                break
+            if decodedata == "Read Alice":
+                Alice = jobs.read_alice()
+                connection.sendall(Alice.encode('ascii'))
+            if data[:10] == b"KILLSERVER":
+                killreceived = True
+            if killreceived:
+                reply = 'Server killed, goodbye.'
+                connection.sendall(str.encode(reply))
+                break
+            print('Thread ' + str(thread_id) + ' says: ' + decodedata)
             connection.sendall(str.encode(reply))
-            break
-        print('Thread ' + str(thread_id) + ' says: ' + decodedata)
-        connection.sendall(str.encode(reply))
-    connection.close()
+        connection.close()
+    except Exception as e:
+        print("Client " + str(thread_id) + " has severed connection.")
 
 def threaded_server(sock):
     ThreadCount = 0
