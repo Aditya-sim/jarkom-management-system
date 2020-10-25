@@ -2,6 +2,8 @@ import socket
 import os
 from _thread import *
 
+import jobs
+
 ServerSocket = socket.socket()
 host = '127.0.0.1'
 port = 1233
@@ -38,6 +40,9 @@ def threaded_client(connection, id):
             reply = 'Server Says: ' + decodedata
             if not data:
                 break
+            if decodedata == "Read Alice":
+                Alice = jobs.read_alice()
+                connection.sendall(Alice.encode('ascii'))
             if data[:10] == b"KILLSERVER":
                 killreceived = True
             if killreceived:
