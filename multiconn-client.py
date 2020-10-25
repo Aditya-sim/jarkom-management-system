@@ -1,4 +1,6 @@
+import io
 import socket
+from PIL import Image
 
 ClientSocket = socket.socket()
 host = '127.0.0.1'
@@ -19,9 +21,15 @@ while True:
     try:
         Input = input('Say Something: ')
         ClientSocket.send(str.encode(Input))
-        if Input == ("bye"):
-            print("You have broken connection.")
+        if Input == ('bye'):
+            print('You have broken connection.')
             break
+        elif Input == ('Text Previewer'):
+            Input = input("Please specify the text's URL that you would like to preview:")
+            ClientSocket.sendall(str.encode(Input))
+            preview = ClientSocket.recv(2048)
+            preview = preview.decode('utf-8')
+            print(preview)
         Response = ClientSocket.recv(1024)
         print(Response.decode('utf-8'))
     except ConnectionAbortedError as e:

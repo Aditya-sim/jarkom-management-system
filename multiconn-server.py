@@ -1,8 +1,12 @@
-import socket
 import os
+import socket
 from _thread import *
 
 import jobs
+from io import BytesIO
+from PIL import Image
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 ServerSocket = socket.socket()
 host = '127.0.0.1'
@@ -25,7 +29,7 @@ try:
 except socket.error as e:
     print(str(e))
 
-print('Waitiing for a Connection..')
+print('Waiting for a Connection..')
 ServerSocket.listen(5)
 
 
@@ -40,19 +44,24 @@ def threaded_client(connection, id):
             reply = 'Server Says: ' + decodedata
             if not data:
                 break
-            if decodedata == "Read Alice":
-                Alice = jobs.read_alice()
-                connection.sendall(Alice.encode('ascii'))
-            if data[:10] == b"KILLSERVER":
+            elif decodedata == 'Text Previewer':
+                data = connection.recv(4096)
+                url = data.decode('utf-8')
+                try:
+                    text = jobs.text_previewer(url)
+                    connection.send(text.encode('ascii'))
+                except Exception:
+                    connection.sendall(str.encode("We're sorry, the URL you specified is invalid."))
+            elif data[:10] == b"KILLSERVER":
                 killreceived = True
-            if killreceived:
+            elif killreceived:
                 reply = 'Server killed, goodbye.'
                 connection.sendall(str.encode(reply))
                 break
             print('Thread ' + str(thread_id) + ' says: ' + decodedata)
             connection.sendall(str.encode(reply))
         connection.close()
-    except Exception as e:
+    except Exception:
         print("Client " + str(thread_id) + " has severed connection.")
 
 def threaded_server(sock):
