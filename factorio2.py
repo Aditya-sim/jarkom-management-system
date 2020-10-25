@@ -77,18 +77,39 @@ def getRealProduct(product):
 def runprogram(connection):
     conn = connection
 
+    runprogram = True
+    stage = 0
+    init = True
+    connbroken = False
+
     def nprint(strtoprint, prt = None):
         global outbuffer
         outbuffer = outbuffer + strtoprint + '\n'
         if prt:
-            conn.sendall(str.encode(outbuffer))
+            send_message(outbuffer)
             outbuffer = ''
 
     def ninput(inpstr):
         nprint(inpstr, True)
-        return conn.recv(2048).decode('utf-8')
+        return receive_message()
     
-    
+    def send_message(msg):
+        msglen = len(msg)
+        outmsg = '{:08d}'.format(msglen)+msg
+        conn.sendall(outmsg.encode())
+
+    def receive_message():
+        msghdr = conn.recv(8)
+        if not msghdr:
+            connbroken = True
+            return None
+        msglen = int(msghdr.decode('utf-8'))
+        inbuff = b''
+        while msglen > 0:
+            inbuff = inbuff + conn.recv(min(msglen,4096))
+            msglen = msglen - min(msglen,4096)
+        return inbuff.decode('utf-8')
+
     rawdat = {}
     datpath = os.path.join('recipe-lister')
     datfiles = ['assembling-machine','fluid','furnace','item','recipe']
@@ -114,10 +135,6 @@ def runprogram(connection):
 
     del rawdat ## Save memory
 
-    runprogram = True
-    stage = 0
-    init = True
-    
     while runprogram:
 
         if init:
@@ -126,6 +143,9 @@ def runprogram(connection):
             selecteditem = ''
             inititems = {}
             init = False
+        
+        if connbroken:
+            break
             
         while stage == 0:
             iteminput = ninput(separator + '\nAdd initial item(s), enter "proceed" to proceed:\n')
@@ -260,5 +280,6 @@ def runprogram(connection):
         ##FUTURE
         ##Stage 4: Select buildings to process recipes
         ##Stage 5: Select beacons
+    return not connbroken
 
 # runprogram()

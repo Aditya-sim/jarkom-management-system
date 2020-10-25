@@ -15,13 +15,13 @@ ThreadCount = 0
 killreceived = False
 
 print('Getting host IP...')
-try:
-    import urllib.request
-    readhost = urllib.request.urlopen("http://169.254.169.254/latest/meta-data/local-ipv4").read().decode('utf-8')
-except Exception as e:
-    print(str(e))
-else:
-    host = readhost
+# try:
+#     import urllib.request
+#     readhost = urllib.request.urlopen("http://169.254.169.254/latest/meta-data/local-ipv4").read().decode('utf-8')
+# except Exception as e:
+#     print(str(e))
+# else:
+#     host = readhost
 print('Host IP is '+str(host))
 
 try:
@@ -32,41 +32,56 @@ except socket.error as e:
 print('Waiting for a Connection..')
 ServerSocket.listen(5)
 
+def send_message(conn,msg, encoding = 'utf-8'):
+    msglen = len(msg)
+    outmsg = '{:08d}'.format(msglen)+msg
+    conn.sendall(outmsg.encode(encoding))
+
+def receive_message(conn):
+    msghdr = conn.recv(8)
+    if not msghdr:
+        return None
+    msglen = int(msghdr.decode('utf-8'))
+    inbuff = b''
+    while msglen > 0:
+        inbuff = inbuff + conn.recv(min(msglen,4096))
+        msglen = msglen - min(msglen,4096)
+    return inbuff.decode('utf-8')
 
 def threaded_client(connection, id):
     try:
         global killreceived
         thread_id = id
-        connection.send(str.encode('Welcome to the Server\n'))
+        send_message(connection,'Welcome to the Server\n')
         while True:
-            data = connection.recv(2048)
-            decodedata = data.decode('utf-8')
+            decodedata = receive_message(connection)
             reply = 'Server Says: ' + decodedata
             print('Thread ' + str(thread_id) + ' says: ' + decodedata)
-            if not data:
+            if not decodedata:
                 break
             elif decodedata.lower() == 'factorio calculator':
-                factorio2.runprogram(connection)
+                success = factorio2.runprogram(connection)
+                if not success:
+                    break
             elif decodedata.lower() == 'text previewer':
-                data = connection.recv(4096)
-                url = data.decode('utf-8')
+                url = receive_message(connection)
                 try:
                     text = jobs.text_previewer(url)
-                    connection.send(text.encode('ascii'))
+                    send_message(connection,text,'ascii')
                 except Exception:
-                    connection.sendall(str.encode("We're sorry, the URL you specified is invalid."))
+                    send_message(connection, "We're sorry, the URL you specified is invalid.")
             elif decodedata.lower() == 'bye':
                 pass
-            elif data[:10] == b"KILLSERVER":
+            elif decodedata[:10] == "KILLSERVER":
                 killreceived = True
             if killreceived:
                 reply = 'Server killed, goodbye.'
-                connection.sendall(str.encode(reply))
+                send_message(connection, reply)
                 break
-            connection.sendall(str.encode(reply))
+            send_message(connection,reply)
         connection.close()
-    except Exception:
-        print('Client ' + str(thread_id) + ' has severed connection.')
+    except Exception as e:
+        print('Client ' + str(thread_id) + ' has severed connection: '+str(e))
 
 def threaded_server(sock):
     ThreadCount = 0
