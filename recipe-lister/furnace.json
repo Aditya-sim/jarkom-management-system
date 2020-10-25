@@ -1,0 +1,3860 @@
+{
+  "fluid-depot" : {
+    "name" : "fluid-depot",
+    "localised_name" : [
+      "fluid-depot"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1,
+    "crafting_categories" : {
+      "transport-fluid-request" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "fluid-depot-compressed-compact" : {
+    "name" : "fluid-depot-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "fluid-depot"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 11,
+    "ingredient_count" : 1,
+    "crafting_speed" : 10,
+    "crafting_categories" : {
+      "transport-fluid-request" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "fluid-depot-compressed-nanite" : {
+    "name" : "fluid-depot-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "fluid-depot"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 121,
+    "ingredient_count" : 1,
+    "crafting_speed" : 100,
+    "crafting_categories" : {
+      "transport-fluid-request" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "fluid-depot-compressed-quantum" : {
+    "name" : "fluid-depot-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "fluid-depot"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1331,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1000,
+    "crafting_categories" : {
+      "transport-fluid-request" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "fluid-depot-compressed-singularity" : {
+    "name" : "fluid-depot-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "fluid-depot"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 14641,
+    "ingredient_count" : 1,
+    "crafting_speed" : 10000,
+    "crafting_categories" : {
+      "transport-fluid-request" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "se-spaceship-rocket-engine" : {
+    "name" : "se-spaceship-rocket-engine",
+    "localised_name" : [
+      "entity-name.se-spaceship-rocket-engine"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 100000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1,
+    "crafting_categories" : {
+      "spaceship-rocket-engine" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 3333.3333333333,
+    "emissions" : 6.6666666666667e-07,
+    "pollution" : 4
+  },
+  "se-spaceship-rocket-engine-compressed-compact" : {
+    "name" : "se-spaceship-rocket-engine-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.se-spaceship-rocket-engine"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1100000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 10,
+    "crafting_categories" : {
+      "spaceship-rocket-engine" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 36666.666666667,
+    "emissions" : 6.0606060606061e-06,
+    "pollution" : 400
+  },
+  "se-spaceship-rocket-engine-compressed-nanite" : {
+    "name" : "se-spaceship-rocket-engine-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.se-spaceship-rocket-engine"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 12100000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 100,
+    "crafting_categories" : {
+      "spaceship-rocket-engine" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 403333.33333333,
+    "emissions" : 5.5096418732782e-06,
+    "pollution" : 4000
+  },
+  "se-spaceship-rocket-engine-compressed-quantum" : {
+    "name" : "se-spaceship-rocket-engine-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.se-spaceship-rocket-engine"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 133100000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1000,
+    "crafting_categories" : {
+      "spaceship-rocket-engine" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 4436666.6666667,
+    "emissions" : 5.0087653393439e-06,
+    "pollution" : 40000
+  },
+  "se-spaceship-rocket-engine-compressed-singularity" : {
+    "name" : "se-spaceship-rocket-engine-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.se-spaceship-rocket-engine"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1464100000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 10000,
+    "crafting_categories" : {
+      "spaceship-rocket-engine" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 48803333.333333,
+    "emissions" : 4.5534230357671e-06,
+    "pollution" : 400000
+  },
+  "se-spaceship-antimatter-engine" : {
+    "name" : "se-spaceship-antimatter-engine",
+    "localised_name" : [
+      "entity-name.se-spaceship-antimatter-engine"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1000000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1,
+    "crafting_categories" : {
+      "spaceship-antimatter-engine" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 33333.333333333,
+    "emissions" : 6.6666666666667e-08,
+    "pollution" : 4
+  },
+  "se-spaceship-antimatter-engine-compressed-compact" : {
+    "name" : "se-spaceship-antimatter-engine-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.se-spaceship-antimatter-engine"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 11000000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 10,
+    "crafting_categories" : {
+      "spaceship-antimatter-engine" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 366666.66666667,
+    "emissions" : 6.0606060606061e-07,
+    "pollution" : 400
+  },
+  "se-spaceship-antimatter-engine-compressed-nanite" : {
+    "name" : "se-spaceship-antimatter-engine-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.se-spaceship-antimatter-engine"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 121000000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 100,
+    "crafting_categories" : {
+      "spaceship-antimatter-engine" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 4033333.3333333,
+    "emissions" : 5.5096418732782e-07,
+    "pollution" : 4000
+  },
+  "se-spaceship-antimatter-engine-compressed-quantum" : {
+    "name" : "se-spaceship-antimatter-engine-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.se-spaceship-antimatter-engine"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1331000000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1000,
+    "crafting_categories" : {
+      "spaceship-antimatter-engine" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 44366666.666667,
+    "emissions" : 5.0087653393439e-07,
+    "pollution" : 40000
+  },
+  "se-spaceship-antimatter-engine-compressed-singularity" : {
+    "name" : "se-spaceship-antimatter-engine-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.se-spaceship-antimatter-engine"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 14641000000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 10000,
+    "crafting_categories" : {
+      "spaceship-antimatter-engine" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 488033333.33333,
+    "emissions" : 4.5534230357671e-07,
+    "pollution" : 400000
+  },
+  "se-big-turbine" : {
+    "name" : "se-big-turbine",
+    "localised_name" : [
+      "entity-name.se-big-turbine"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 0.1,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1,
+    "crafting_categories" : {
+      "big-turbine" : true,
+      "big-turbine-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "se-big-turbine-compressed-compact" : {
+    "name" : "se-big-turbine-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.se-big-turbine"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1.1,
+    "ingredient_count" : 1,
+    "crafting_speed" : 10,
+    "crafting_categories" : {
+      "big-turbine-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "se-big-turbine-compressed-nanite" : {
+    "name" : "se-big-turbine-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.se-big-turbine"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 12.1,
+    "ingredient_count" : 1,
+    "crafting_speed" : 100,
+    "crafting_categories" : {
+      "big-turbine-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "se-big-turbine-compressed-quantum" : {
+    "name" : "se-big-turbine-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.se-big-turbine"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 133.1,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1000,
+    "crafting_categories" : {
+      "big-turbine-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "se-big-turbine-compressed-singularity" : {
+    "name" : "se-big-turbine-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.se-big-turbine"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1464.1,
+    "ingredient_count" : 1,
+    "crafting_speed" : 10000,
+    "crafting_categories" : {
+      "big-turbine-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "se-condenser-turbine" : {
+    "name" : "se-condenser-turbine",
+    "localised_name" : [
+      "entity-name.se-condenser-turbine"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 0.1,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1,
+    "crafting_categories" : {
+      "condenser-turbine" : true,
+      "condenser-turbine-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "se-condenser-turbine-compressed-compact" : {
+    "name" : "se-condenser-turbine-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.se-condenser-turbine"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1.1,
+    "ingredient_count" : 1,
+    "crafting_speed" : 10,
+    "crafting_categories" : {
+      "condenser-turbine-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "se-condenser-turbine-compressed-nanite" : {
+    "name" : "se-condenser-turbine-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.se-condenser-turbine"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 12.1,
+    "ingredient_count" : 1,
+    "crafting_speed" : 100,
+    "crafting_categories" : {
+      "condenser-turbine-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "se-condenser-turbine-compressed-quantum" : {
+    "name" : "se-condenser-turbine-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.se-condenser-turbine"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 133.1,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1000,
+    "crafting_categories" : {
+      "condenser-turbine-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "se-condenser-turbine-compressed-singularity" : {
+    "name" : "se-condenser-turbine-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.se-condenser-turbine"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1464.1,
+    "ingredient_count" : 1,
+    "crafting_speed" : 10000,
+    "crafting_categories" : {
+      "condenser-turbine-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "stone-furnace" : {
+    "name" : "stone-furnace",
+    "localised_name" : [
+      "entity-name.stone-furnace"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 90000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1,
+    "crafting_categories" : {
+      "smelting" : true,
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "burner_effectivity" : 1,
+    "fuel_categories" : {
+      "chemical" : true,
+      "processed-chemical" : true
+    },
+    "emissions" : 3.7037037037037e-07,
+    "pollution" : 2
+  },
+  "stone-furnace-compressed-compact" : {
+    "name" : "stone-furnace-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.stone-furnace"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 990000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 10,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "burner_effectivity" : 1,
+    "fuel_categories" : {
+      "chemical" : true,
+      "processed-chemical" : true
+    },
+    "emissions" : 3.3670033670034e-06,
+    "pollution" : 200
+  },
+  "stone-furnace-compressed-nanite" : {
+    "name" : "stone-furnace-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.stone-furnace"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 10890000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 100,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "burner_effectivity" : 1,
+    "fuel_categories" : {
+      "chemical" : true,
+      "processed-chemical" : true
+    },
+    "emissions" : 3.0609121518212e-06,
+    "pollution" : 2000
+  },
+  "stone-furnace-compressed-quantum" : {
+    "name" : "stone-furnace-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.stone-furnace"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 119790000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1000,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "burner_effectivity" : 1,
+    "fuel_categories" : {
+      "chemical" : true,
+      "processed-chemical" : true
+    },
+    "emissions" : 2.7826474107466e-06,
+    "pollution" : 20000
+  },
+  "stone-furnace-compressed-singularity" : {
+    "name" : "stone-furnace-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.stone-furnace"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1317690000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 10000,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "burner_effectivity" : 1,
+    "fuel_categories" : {
+      "chemical" : true,
+      "processed-chemical" : true
+    },
+    "emissions" : 2.5296794643151e-06,
+    "pollution" : 200000
+  },
+  "steel-furnace" : {
+    "name" : "steel-furnace",
+    "localised_name" : [
+      "entity-name.steel-furnace"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 90000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 2,
+    "crafting_categories" : {
+      "smelting" : true,
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "burner_effectivity" : 1,
+    "fuel_categories" : {
+      "chemical" : true,
+      "processed-chemical" : true
+    },
+    "emissions" : 7.4074074074074e-07,
+    "pollution" : 4
+  },
+  "steel-furnace-compressed-compact" : {
+    "name" : "steel-furnace-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.steel-furnace"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 990000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 20,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "burner_effectivity" : 1,
+    "fuel_categories" : {
+      "chemical" : true,
+      "processed-chemical" : true
+    },
+    "emissions" : 6.7340067340067e-06,
+    "pollution" : 400
+  },
+  "steel-furnace-compressed-nanite" : {
+    "name" : "steel-furnace-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.steel-furnace"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 10890000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 200,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "burner_effectivity" : 1,
+    "fuel_categories" : {
+      "chemical" : true,
+      "processed-chemical" : true
+    },
+    "emissions" : 6.1218243036425e-06,
+    "pollution" : 4000
+  },
+  "steel-furnace-compressed-quantum" : {
+    "name" : "steel-furnace-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.steel-furnace"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 119790000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 2000,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "burner_effectivity" : 1,
+    "fuel_categories" : {
+      "chemical" : true,
+      "processed-chemical" : true
+    },
+    "emissions" : 5.5652948214932e-06,
+    "pollution" : 40000
+  },
+  "steel-furnace-compressed-singularity" : {
+    "name" : "steel-furnace-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.steel-furnace"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1317690000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 20000,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "burner_effectivity" : 1,
+    "fuel_categories" : {
+      "chemical" : true,
+      "processed-chemical" : true
+    },
+    "emissions" : 5.0593589286302e-06,
+    "pollution" : 400000
+  },
+  "fluid-furnace" : {
+    "name" : "fluid-furnace",
+    "localised_name" : [
+      "entity-name.fluid-furnace"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 90000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 2,
+    "crafting_categories" : {
+      "smelting" : true,
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "fluid-furnace-compressed-compact" : {
+    "name" : "fluid-furnace-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.fluid-furnace"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 990000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 20,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "fluid-furnace-compressed-nanite" : {
+    "name" : "fluid-furnace-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.fluid-furnace"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 10890000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 200,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "fluid-furnace-compressed-quantum" : {
+    "name" : "fluid-furnace-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.fluid-furnace"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 119790000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 2000,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "fluid-furnace-compressed-singularity" : {
+    "name" : "fluid-furnace-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.fluid-furnace"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1317690000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 20000,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "pollution" : 0
+  },
+  "electric-furnace" : {
+    "name" : "electric-furnace",
+    "localised_name" : [
+      "entity-name.electric-furnace"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 180000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 2,
+    "crafting_categories" : {
+      "smelting" : true,
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 2,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 6000,
+    "emissions" : 9.2592592592593e-08,
+    "pollution" : 1
+  },
+  "electric-furnace-compressed-compact" : {
+    "name" : "electric-furnace-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.electric-furnace"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1980000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 20,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 4,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 66000,
+    "emissions" : 8.4175084175084e-07,
+    "pollution" : 100
+  },
+  "electric-furnace-compressed-nanite" : {
+    "name" : "electric-furnace-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.electric-furnace"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 21780000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 200,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 6,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 726000,
+    "emissions" : 7.6522803795531e-07,
+    "pollution" : 1000
+  },
+  "electric-furnace-compressed-quantum" : {
+    "name" : "electric-furnace-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.electric-furnace"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 239580000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 2000,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 8,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 7986000,
+    "emissions" : 6.9566185268665e-07,
+    "pollution" : 10000
+  },
+  "electric-furnace-compressed-singularity" : {
+    "name" : "electric-furnace-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.electric-furnace"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 2635380000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 20000,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 10,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 87846000,
+    "emissions" : 6.3241986607877e-07,
+    "pollution" : 100000
+  },
+  "electric-furnace-2" : {
+    "name" : "electric-furnace-2",
+    "localised_name" : [
+      "entity-name.electric-furnace-2"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 250000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 3,
+    "crafting_categories" : {
+      "smelting" : true,
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 5,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 8333.3333333333,
+    "emissions" : 6.6666666666667e-08,
+    "pollution" : 1
+  },
+  "electric-furnace-2-compressed-compact" : {
+    "name" : "electric-furnace-2-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.electric-furnace-2"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 2750000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 30,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 10,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 91666.666666667,
+    "emissions" : 6.0606060606061e-07,
+    "pollution" : 100
+  },
+  "electric-furnace-2-compressed-nanite" : {
+    "name" : "electric-furnace-2-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.electric-furnace-2"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 30250000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 300,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 15,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 1008333.3333333,
+    "emissions" : 5.5096418732782e-07,
+    "pollution" : 1000
+  },
+  "electric-furnace-2-compressed-quantum" : {
+    "name" : "electric-furnace-2-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.electric-furnace-2"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 332750000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 3000,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 20,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 11091666.666667,
+    "emissions" : 5.0087653393439e-07,
+    "pollution" : 10000
+  },
+  "electric-furnace-2-compressed-singularity" : {
+    "name" : "electric-furnace-2-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.electric-furnace-2"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 3660250000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 30000,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 25,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 122008333.33333,
+    "emissions" : 4.5534230357671e-07,
+    "pollution" : 100000
+  },
+  "electric-furnace-3" : {
+    "name" : "electric-furnace-3",
+    "localised_name" : [
+      "entity-name.electric-furnace-3"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 300000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 4,
+    "crafting_categories" : {
+      "smelting" : true,
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 6,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 10000,
+    "emissions" : 5.5555555555556e-08,
+    "pollution" : 1
+  },
+  "electric-furnace-3-compressed-compact" : {
+    "name" : "electric-furnace-3-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.electric-furnace-3"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 3300000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 40,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 12,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 110000,
+    "emissions" : 5.0505050505051e-07,
+    "pollution" : 100
+  },
+  "electric-furnace-3-compressed-nanite" : {
+    "name" : "electric-furnace-3-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.electric-furnace-3"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 36300000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 400,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 18,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 1210000,
+    "emissions" : 4.5913682277319e-07,
+    "pollution" : 1000
+  },
+  "electric-furnace-3-compressed-quantum" : {
+    "name" : "electric-furnace-3-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.electric-furnace-3"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 399300000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 4000,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 24,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 13310000,
+    "emissions" : 4.1739711161199e-07,
+    "pollution" : 10000
+  },
+  "electric-furnace-3-compressed-singularity" : {
+    "name" : "electric-furnace-3-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.electric-furnace-3"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 4392300000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 40000,
+    "crafting_categories" : {
+      "smelting-compressed" : true
+    },
+    "module_inventory_size" : 30,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 146410000,
+    "emissions" : 3.7945191964726e-07,
+    "pollution" : 100000
+  },
+  "auto-compressor-1" : {
+    "name" : "auto-compressor-1",
+    "localised_name" : [
+      "entity-name.auto-compressor-1"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 500000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 6.25,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 16666.666666667,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-compressor-1-compressed-compact" : {
+    "name" : "auto-compressor-1-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-compressor-1"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 5500000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 62.5,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 183333.33333333,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-compressor-1-compressed-nanite" : {
+    "name" : "auto-compressor-1-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-compressor-1"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 60500000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 625,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 2016666.6666667,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-compressor-1-compressed-quantum" : {
+    "name" : "auto-compressor-1-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-compressor-1"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 665500000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 6250,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 22183333.333333,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-compressor-1-compressed-singularity" : {
+    "name" : "auto-compressor-1-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-compressor-1"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 7320500000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 62500,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 244016666.66667,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-compressor-2" : {
+    "name" : "auto-compressor-2",
+    "localised_name" : [
+      "entity-name.auto-compressor-2"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 800000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 12.5,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 26666.666666667,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-compressor-2-compressed-compact" : {
+    "name" : "auto-compressor-2-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-compressor-2"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 8800000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 125,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 293333.33333333,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-compressor-2-compressed-nanite" : {
+    "name" : "auto-compressor-2-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-compressor-2"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 96800000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1250,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 3226666.6666667,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-compressor-2-compressed-quantum" : {
+    "name" : "auto-compressor-2-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-compressor-2"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1064800000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 12500,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 35493333.333333,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-compressor-2-compressed-singularity" : {
+    "name" : "auto-compressor-2-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-compressor-2"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 11712800000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 125000,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 390426666.66667,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-compressor-3" : {
+    "name" : "auto-compressor-3",
+    "localised_name" : [
+      "entity-name.auto-compressor-3"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1250000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 25,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 41666.666666667,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-compressor-3-compressed-compact" : {
+    "name" : "auto-compressor-3-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-compressor-3"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 13750000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 250,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 458333.33333333,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-compressor-3-compressed-nanite" : {
+    "name" : "auto-compressor-3-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-compressor-3"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 151250000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 2500,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 5041666.6666667,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-compressor-3-compressed-quantum" : {
+    "name" : "auto-compressor-3-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-compressor-3"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1663750000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 25000,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 55458333.333333,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-compressor-3-compressed-singularity" : {
+    "name" : "auto-compressor-3-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-compressor-3"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 18301250000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 250000,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 610041666.66667,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-compressor" : {
+    "name" : "auto-compressor",
+    "localised_name" : [
+      "entity-name.auto-compressor"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 225000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 3.125,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 7500,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-compressor-compressed-compact" : {
+    "name" : "auto-compressor-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-compressor"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 2475000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 31.25,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 82500,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-compressor-compressed-nanite" : {
+    "name" : "auto-compressor-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-compressor"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 27225000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 312.5,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 907500,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-compressor-compressed-quantum" : {
+    "name" : "auto-compressor-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-compressor"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 299475000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 3125,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 9982500,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-compressor-compressed-singularity" : {
+    "name" : "auto-compressor-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-compressor"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 3294225000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 31250,
+    "crafting_categories" : {
+      "compression" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 109807500,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-concentrator" : {
+    "name" : "auto-concentrator",
+    "localised_name" : [
+      "entity-name.auto-concentrator"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 225000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 3,
+    "crafting_categories" : {
+      "fluid-concentration" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 7500,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-concentrator-compressed-compact" : {
+    "name" : "auto-concentrator-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-concentrator"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 2475000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 30,
+    "crafting_categories" : {
+      "fluid-concentration" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 82500,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-concentrator-compressed-nanite" : {
+    "name" : "auto-concentrator-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-concentrator"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 27225000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 300,
+    "crafting_categories" : {
+      "fluid-concentration" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 907500,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-concentrator-compressed-quantum" : {
+    "name" : "auto-concentrator-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-concentrator"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 299475000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 3000,
+    "crafting_categories" : {
+      "fluid-concentration" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 9982500,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "auto-concentrator-compressed-singularity" : {
+    "name" : "auto-concentrator-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.auto-concentrator"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 3294225000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 30000,
+    "crafting_categories" : {
+      "fluid-concentration" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 109807500,
+    "emissions" : 0,
+    "pollution" : 0
+  },
+  "vent-stack" : {
+    "name" : "vent-stack",
+    "localised_name" : [
+      "entity-name.vent-stack"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1,
+    "crafting_categories" : {
+      "flaring" : true,
+      "flaring-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 33.333333333333,
+    "emissions" : 0.00013333333333333,
+    "pollution" : 8
+  },
+  "vent-stack-compressed-compact" : {
+    "name" : "vent-stack-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.vent-stack"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 11000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 10,
+    "crafting_categories" : {
+      "flaring-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 366.66666666667,
+    "emissions" : 0.0012121212121212,
+    "pollution" : 800
+  },
+  "vent-stack-compressed-nanite" : {
+    "name" : "vent-stack-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.vent-stack"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 121000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 100,
+    "crafting_categories" : {
+      "flaring-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 4033.3333333333,
+    "emissions" : 0.0011019283746556,
+    "pollution" : 8000
+  },
+  "vent-stack-compressed-quantum" : {
+    "name" : "vent-stack-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.vent-stack"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1331000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1000,
+    "crafting_categories" : {
+      "flaring-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 44366.666666667,
+    "emissions" : 0.0010017530678688,
+    "pollution" : 80000
+  },
+  "vent-stack-compressed-singularity" : {
+    "name" : "vent-stack-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.vent-stack"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 14641000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 10000,
+    "crafting_categories" : {
+      "flaring-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 488033.33333333,
+    "emissions" : 0.00091068460715343,
+    "pollution" : 800000
+  },
+  "flare-stack" : {
+    "name" : "flare-stack",
+    "localised_name" : [
+      "entity-name.flare-stack"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1,
+    "crafting_categories" : {
+      "flaring" : true,
+      "flaring-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 33.333333333333,
+    "emissions" : 0.00013333333333333,
+    "pollution" : 8
+  },
+  "flare-stack-compressed-compact" : {
+    "name" : "flare-stack-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.flare-stack"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 11000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 10,
+    "crafting_categories" : {
+      "flaring-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 366.66666666667,
+    "emissions" : 0.0012121212121212,
+    "pollution" : 800
+  },
+  "flare-stack-compressed-nanite" : {
+    "name" : "flare-stack-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.flare-stack"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 121000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 100,
+    "crafting_categories" : {
+      "flaring-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 4033.3333333333,
+    "emissions" : 0.0011019283746556,
+    "pollution" : 8000
+  },
+  "flare-stack-compressed-quantum" : {
+    "name" : "flare-stack-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.flare-stack"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1331000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1000,
+    "crafting_categories" : {
+      "flaring-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 44366.666666667,
+    "emissions" : 0.0010017530678688,
+    "pollution" : 80000
+  },
+  "flare-stack-compressed-singularity" : {
+    "name" : "flare-stack-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.flare-stack"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 14641000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 10000,
+    "crafting_categories" : {
+      "flaring-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 488033.33333333,
+    "emissions" : 0.00091068460715343,
+    "pollution" : 800000
+  },
+  "incinerator" : {
+    "name" : "incinerator",
+    "localised_name" : [
+      "entity-name.incinerator"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 320000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 2,
+    "crafting_categories" : {
+      "incineration" : true,
+      "incineration-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "burner_effectivity" : 1,
+    "fuel_categories" : {
+      "chemical" : true,
+      "processed-chemical" : true
+    },
+    "emissions" : 4.1666666666667e-07,
+    "pollution" : 8
+  },
+  "incinerator-compressed-compact" : {
+    "name" : "incinerator-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.incinerator"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 3520000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 20,
+    "crafting_categories" : {
+      "incineration-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "burner_effectivity" : 1,
+    "fuel_categories" : {
+      "chemical" : true,
+      "processed-chemical" : true
+    },
+    "emissions" : 3.7878787878788e-06,
+    "pollution" : 800
+  },
+  "incinerator-compressed-nanite" : {
+    "name" : "incinerator-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.incinerator"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 38720000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 200,
+    "crafting_categories" : {
+      "incineration-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "burner_effectivity" : 1,
+    "fuel_categories" : {
+      "chemical" : true,
+      "processed-chemical" : true
+    },
+    "emissions" : 3.4435261707989e-06,
+    "pollution" : 8000
+  },
+  "incinerator-compressed-quantum" : {
+    "name" : "incinerator-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.incinerator"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 425920000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 2000,
+    "crafting_categories" : {
+      "incineration-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "burner_effectivity" : 1,
+    "fuel_categories" : {
+      "chemical" : true,
+      "processed-chemical" : true
+    },
+    "emissions" : 3.1304783370899e-06,
+    "pollution" : 80000
+  },
+  "incinerator-compressed-singularity" : {
+    "name" : "incinerator-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.incinerator"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 4685120000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 20000,
+    "crafting_categories" : {
+      "incineration-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "burner_effectivity" : 1,
+    "fuel_categories" : {
+      "chemical" : true,
+      "processed-chemical" : true
+    },
+    "emissions" : 2.8458893973545e-06,
+    "pollution" : 800000
+  },
+  "electric-incinerator" : {
+    "name" : "electric-incinerator",
+    "localised_name" : [
+      "entity-name.electric-incinerator"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 320000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 2,
+    "crafting_categories" : {
+      "incineration" : true,
+      "fuel-incineration" : true,
+      "incineration-compressed" : true,
+      "fuel-incineration-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 0,
+    "emissions" : 4.1666666666667e-07,
+    "pollution" : 8
+  },
+  "electric-incinerator-compressed-compact" : {
+    "name" : "electric-incinerator-compressed-compact",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.electric-incinerator"
+      ],
+      "Compact"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 3520000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 20,
+    "crafting_categories" : {
+      "incineration-compressed" : true,
+      "fuel-incineration-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 0,
+    "emissions" : 3.7878787878788e-06,
+    "pollution" : 800
+  },
+  "electric-incinerator-compressed-nanite" : {
+    "name" : "electric-incinerator-compressed-nanite",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.electric-incinerator"
+      ],
+      "Nanite"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 38720000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 200,
+    "crafting_categories" : {
+      "incineration-compressed" : true,
+      "fuel-incineration-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 0,
+    "emissions" : 3.4435261707989e-06,
+    "pollution" : 8000
+  },
+  "electric-incinerator-compressed-quantum" : {
+    "name" : "electric-incinerator-compressed-quantum",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.electric-incinerator"
+      ],
+      "Quantum"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 425920000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 2000,
+    "crafting_categories" : {
+      "incineration-compressed" : true,
+      "fuel-incineration-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 0,
+    "emissions" : 3.1304783370899e-06,
+    "pollution" : 80000
+  },
+  "electric-incinerator-compressed-singularity" : {
+    "name" : "electric-incinerator-compressed-singularity",
+    "localised_name" : [
+      "entity-name.compressed-building",
+      [
+        "entity-name.electric-incinerator"
+      ],
+      "Singularity"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 4685120000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 20000,
+    "crafting_categories" : {
+      "incineration-compressed" : true,
+      "fuel-incineration-compressed" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "drain" : 0,
+    "emissions" : 2.8458893973545e-06,
+    "pollution" : 800000
+  }
+}

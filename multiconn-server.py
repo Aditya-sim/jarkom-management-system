@@ -2,7 +2,7 @@ import os
 import socket
 from _thread import *
 
-import jobs
+import jobs, factorio2
 from io import BytesIO
 from PIL import Image
 from PIL import ImageFile
@@ -15,13 +15,13 @@ ThreadCount = 0
 killreceived = False
 
 print('Getting host IP...')
-try:
-    import urllib.request
-    readhost = urllib.request.urlopen("http://169.254.169.254/latest/meta-data/local-ipv4").read().decode('utf-8')
-except Exception as e:
-    print(str(e))
-else:
-    host = readhost
+# try:
+#     import urllib.request
+#     readhost = urllib.request.urlopen("http://169.254.169.254/latest/meta-data/local-ipv4").read().decode('utf-8')
+# except Exception as e:
+#     print(str(e))
+# else:
+#     host = readhost
 print('Host IP is '+str(host))
 
 try:
@@ -42,6 +42,7 @@ def threaded_client(connection, id):
             data = connection.recv(2048)
             decodedata = data.decode('utf-8')
             reply = 'Server Says: ' + decodedata
+            print('Thread ' + str(thread_id) + ' says: ' + decodedata)
             if not data:
                 break
             elif decodedata == 'Text Previewer':
@@ -58,11 +59,10 @@ def threaded_client(connection, id):
                 reply = 'Server killed, goodbye.'
                 connection.sendall(str.encode(reply))
                 break
-            print('Thread ' + str(thread_id) + ' says: ' + decodedata)
             connection.sendall(str.encode(reply))
         connection.close()
-    except Exception:
-        print("Client " + str(thread_id) + " has severed connection.")
+    except Exception as e:
+        print("Client " + str(thread_id) + " has severed connection: "+str(e))
 
 def threaded_server(sock):
     ThreadCount = 0
@@ -77,8 +77,15 @@ def threaded_server(sock):
             break
     sock.close()
 
+def threaded_killswitch(sock):
+    while True:
+        if killreceived:
+            sock.close()
+            break
+
 start_new_thread(threaded_server,(ServerSocket,))
+start_new_thread(threaded_killswitch,(ServerSocket,))
+
 while True:
     if killreceived:
-        ServerSocket.close()
         break

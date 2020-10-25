@@ -19,7 +19,9 @@ except socket.error as e:
 Response = ClientSocket.recv(1024)
 while True:
     try:
-        Input = input('Say Something: ')
+        Input = ""
+        while len(Input) == 0:
+            Input = input('Say Something: ')
         ClientSocket.send(str.encode(Input))
         if Input == ('bye'):
             print('You have broken connection.')
