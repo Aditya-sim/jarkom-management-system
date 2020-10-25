@@ -45,6 +45,8 @@ def threaded_client(connection, id):
             print('Thread ' + str(thread_id) + ' says: ' + decodedata)
             if not data:
                 break
+            elif decodedata == "Factorio Calculator":
+                factorio2.runprogram(connection)
             elif decodedata == 'Text Previewer':
                 data = connection.recv(4096)
                 url = data.decode('utf-8')
@@ -55,7 +57,7 @@ def threaded_client(connection, id):
                     connection.sendall(str.encode("We're sorry, the URL you specified is invalid."))
             elif data[:10] == b"KILLSERVER":
                 killreceived = True
-            elif killreceived:
+            if killreceived:
                 reply = 'Server killed, goodbye.'
                 connection.sendall(str.encode(reply))
                 break
